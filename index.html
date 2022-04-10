@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Learning tailwind</title>
+</head>
+
+<body>
+    <nav class="py-4 flex justify-between bg-[#fbfbfd] ">
+        <img src="./images.png" class="cursor-pointer w-8 h-10 ml-6 mt-2 " alt="">
+        <ul class=" flex space-x-12 px-48 py-4 text-slate-500 font-sans font-medium ">
+            <li class="mx-2 text-gray-500 cursor-pointer hover:text-black opacity-100">Home</li>
+            <li class="mx-2 text-gray-500 cursor-pointer hover:text-black opacity-100">Products</li>
+            <li class="mx-2 text-gray-500 cursor-pointer hover:text-black opacity-100">Contact</li>
+            <li class="mx-2 text-gray-500 cursor-pointer hover:text-black opacity-100">About</li>
+        </ul>
+    </nav>
+
+    <div class="container bg-[#fbfbfd] flex justify-around items-center">
+        <div class="text h-fit  ">
+            <p>
+            <h1 class=" tracking-tighter text-2xl text-center align-middle">
+                iPhone <span class="border-2 rounded-md border-black  px-1" >SE</span>
+            </h1>
+            </p>
+            <p class="text-7xl tracking-tighter text-green-600 font-semibold ">Love the power</p>
+            <p class="text-7xl tracking-tighter text-green-600 font-semibold ">Love the price</p>
+
+            <div class="button my-5 px-20 text-lg flex space-x-16">
+                <button class="bg-[#0071e3] hover:bg-[#0071c6] text-white tracking-tighter px-7 py-1 rounded-md font-medium">Buy</button>
+            <a href="" class="pt-1 text-blue-600 hover:text-blue-800">Learn more</a>
+            </div>
+        </div>
+        <div class="img ">
+            <img class="pr-36" src="./from apple.jpg" alt="">
+        </div>
+
+    </div>
+</body>
+
+</html>
